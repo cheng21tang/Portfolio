@@ -4,8 +4,8 @@
   "icons": [
     {
       "src": "home.png",
-      "type": "image/png",
-      "sizes": "250x250"
+      "sizes": " 250x250",
+      "type": "image/png"
     }
   ],
   "start_url": ".",
