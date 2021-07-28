@@ -1,13 +1,39 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  font-size: 18px;
+  font-family: 'Baloo Chettan 2', cursive;
+  --sidenav: #B9DBD4;
+  --body: #8FC1BE;
+  --menu: rgb(81, 113, 135, 0.7);
+  --firstPrimary: #FFCA80;
+  --firstShadow: #E5876C;
+  --secondPrimary: #F25659;
+  --secondShadow: #983B63;
+  --thirdPrimary: #9FEAFF;
+  --thirdShadow: #4E99D0;
+  --fourthPrimary: #85DF9B;
+  --fourthShadow: #3F8D7A;
+  --fifthPrimary: #618BBD;
+  --fifthShadow: #584A6C;
+  --textboxPrimary: #FFF6DB;
+  --buttonPrimary: #DED4C2;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Baloo Chettan 2', cursive;
+  background-color: var(--body);
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin-left: 375px;
+}
+
+/* Scroll bar edit */
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--firstShadow);
 }
