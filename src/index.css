@@ -37,3 +37,24 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-track {
   background: var(--firstShadow);
 }
+
+.text-receive {
+  border-radius: 30px;
+  background-color: var(--menu);
+  margin: 10px 10px 0 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* min-width: 300px; */
+  max-width: 80%;
+  align-self: flex-start;
+}
+
+.text-sent {
+  border-radius: 30px;
+  background-color: var(--thirdShadow);
+  max-width: 80%;
+  margin: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-self: flex-end;
+}

@@ -1,15 +1,15 @@
 import React from 'react';
 import './style.css';
 
-function Textbox() {
+function Martha() {
   return (
     <>
-      <div id="textbox">
-        <div className="textbox-header row">
+      <div id="martha-textbox">
+        <div id="martha-textbox-header" className="row">
           <img id="martha" src="./assets/martha-beck-avatar.svg" alt="Martha Beck avatar"></img>
           <h4>Martha Beck</h4>
         </div>
-        <div className="textbox-body">
+        <div id="martha-textbox-body">
           <div className="text-receive">
             <p>the way we do anything</p>
             <p>is the way we do everything.</p>
@@ -23,4 +23,4 @@ function Textbox() {
   )
 }
 
-export default Textbox;
+export default Martha;
