@@ -11,8 +11,7 @@ function Martha() {
         </div>
         <div id="martha-textbox-body">
           <div className="text-receive">
-            <p>the way we do anything</p>
-            <p>is the way we do everything.</p>
+            <p>the way we do anything is the way we do everything.</p>
           </div>
           <div className="text-sent">
             <p>so true!</p>

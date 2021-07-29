@@ -35,7 +35,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: var(--firstShadow);
+  background: var(--sidenav);
 }
 
 .text-receive {

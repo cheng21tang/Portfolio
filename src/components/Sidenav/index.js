@@ -50,16 +50,16 @@ function Sidenav() {
               </li>
 
               <li className="nav-item">
-                <a href="#experience" className="nav-link">
-                  {/* <img className="icons" src="./assets/work-alt.svg" alt="briefcase icon"></img> */}
-                  <span className="link-text">experience</span>
+                <a href="#work" className="nav-link">
+                  {/* <img className="icons" src="./assets/code-slash.svg" alt="code icon"></img> */}
+                  <span className="link-text">work</span>
                 </a>
               </li>
 
               <li className="nav-item">
-                <a href="#work" className="nav-link">
-                  {/* <img className="icons" src="./assets/code-slash.svg" alt="code icon"></img> */}
-                  <span className="link-text">work</span>
+                <a href="#experience" className="nav-link">
+                  {/* <img className="icons" src="./assets/work-alt.svg" alt="briefcase icon"></img> */}
+                  <span className="link-text">experience</span>
                 </a>
               </li>
 
