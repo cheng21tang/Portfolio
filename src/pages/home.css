@@ -1,21 +1,25 @@
 main {
-  min-height: 100vh;
+  max-height: 100vh;
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 #topBlock,
 #bottomBlock {
   min-height: 10vh;
   width: 100vw;
+  z-index: 3;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
 }
 
 .glass {
   background: white;
   min-height: 80vh;
+  max-height: 100vh;
   width: 80%;
   background: linear-gradient(
     to right bottom, 
@@ -30,4 +34,12 @@ main {
 
 .textboxes {
   flex: 2;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 80vh;
+}
+
+.textboxes::-webkit-scrollbar {
+  display: none;
 }

@@ -24,14 +24,14 @@
   padding: 0;
 }
 
-/* Scroll bar edit */
-/* body::-webkit-scrollbar {
-  width: 0.5rem;
+body::-webkit-scrollbar {
+  display: none;
 }
 
-body::-webkit-scrollbar-track {
-  background: var(--sidenav);
-} */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 
 .text-receive {
   border-radius: 30px;
