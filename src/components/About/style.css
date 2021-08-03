@@ -1,18 +1,17 @@
 #about-textbox {
   display: flex;
   flex-direction: column;
-  max-width: 50vw;
-  /* max-height: 75vh; */
   margin: auto;
-  padding-top: 50px;
+  padding: 50px 10px 50px;
 }
 
 #about-textbox-header {
   background-color: var(--secondShadow);
   border-radius: 30px 30px 0 0;
-  max-height: 25vh;
   display: flex;
-  align-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: 0;
   min-height: 115px;
 }
@@ -20,8 +19,6 @@
 #about-textbox-body {
   background-color: var(--secondPrimary);
   border-radius: 0 0 30px 30px;
-  min-height: 50vh;
-  /* max-height: 75%; */
   min-height: 460px;
   display: flex;
   flex-direction: column;

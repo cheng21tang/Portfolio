@@ -10,14 +10,22 @@ import Contact from '../components/Contact';
 function Home() {
   return (
     <>
-      <Sidenav/>
-      <div id="main">
-        <Martha />
-        <About />
-        <Work />
-        <Experience />
-        <Contact />
-      </div>
+      <main>
+        <div id="topBlock"></div>
+
+        <section className="glass">
+          <Sidenav />
+          <div className="textboxes">
+            <Martha />
+            <About />
+            <Work />
+            <Experience />
+            <Contact />
+          </div>
+        </section>
+
+        <div id="bottomBlock"></div>
+      </main>
     </>
   )
 }

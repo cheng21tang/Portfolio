@@ -5,7 +5,7 @@ function About() {
   return (
     <>
       <div id="about-textbox">
-        <div id="about-textbox-header" className="row">
+        <div id="about-textbox-header">
           <img id="about" src="./assets/cheng-avatar-circle.svg" alt="Cheng Tang avatar"></img>
           <h4>about</h4>
         </div>

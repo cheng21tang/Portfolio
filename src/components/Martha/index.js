@@ -5,7 +5,7 @@ function Martha() {
   return (
     <>
       <div id="martha-textbox">
-        <div id="martha-textbox-header" className="row">
+        <div id="martha-textbox-header">
           <img id="martha" src="./assets/martha-beck-avatar.svg" alt="Martha Beck avatar"></img>
           <h4>Martha Beck</h4>
         </div>

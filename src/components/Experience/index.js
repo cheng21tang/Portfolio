@@ -5,7 +5,7 @@ function Experience() {
   return (
     <>
       <div id="experience-textbox">
-        <div id="experience-textbox-header" className="row">
+        <div id="experience-textbox-header">
           <img id="experience" src="./assets/cheng-avatar-circle.svg" alt="Cheng Tang avatar"></img>
           <h4>experience</h4>
         </div>
