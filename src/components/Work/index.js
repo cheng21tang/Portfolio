@@ -6,7 +6,7 @@ function Work() {
     <>
       <div id="work-textbox">
         <div id="work-textbox-header">
-          <img id="work" src="./assets/cheng-avatar-circle.svg" alt="Cheng Tang avatar"></img>
+          <img id="work" src="./assets/cheng-avatar-circle - 9FEAFF.svg" alt="Cheng Tang avatar"></img>
           <h4>work</h4>
         </div>
         <div id="work-textbox-body">

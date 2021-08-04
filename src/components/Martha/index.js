@@ -6,7 +6,7 @@ function Martha() {
     <>
       <div id="martha-textbox">
         <div id="martha-textbox-header">
-          <img id="martha" src="./assets/martha-beck-avatar.svg" alt="Martha Beck avatar"></img>
+          <img id="martha" src="./assets/martha-beck-avatar - Copy.svg" alt="Martha Beck avatar"></img>
           <h4>Martha Beck</h4>
         </div>
         <div id="martha-textbox-body">

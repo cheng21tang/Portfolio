@@ -6,7 +6,7 @@ function About() {
     <>
       <div id="about-textbox">
         <div id="about-textbox-header">
-          <img id="about" src="./assets/cheng-avatar-circle.svg" alt="Cheng Tang avatar"></img>
+          <img id="about" src="./assets/cheng-avatar-circle - F25659.svg" alt="Cheng Tang avatar"></img>
           <h4>about</h4>
         </div>
         <div id="about-textbox-body">

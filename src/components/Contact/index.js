@@ -6,7 +6,7 @@ function Contact() {
     <>
       <div id="contact-textbox">
         <div id="contact-textbox-header">
-          <img id="contact" src="./assets/cheng-avatar-circle.svg" alt="Cheng Tang avatar"></img>
+          <img id="contact" src="./assets/cheng-avatar-circle - 618BBD.svg" alt="Cheng Tang avatar"></img>
           <h4>contact</h4>
         </div>
         <div id="contact-textbox-body">
