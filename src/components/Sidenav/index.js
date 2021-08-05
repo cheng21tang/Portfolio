@@ -10,7 +10,7 @@ function Sidenav() {
           <a href="#martha" className="logo">
             <img id="avatar" src="./assets/avatar-hoodie.svg" alt="Cheng avatar"></img>
           </a>
-          <h3 className="logo">hi. my name is Cheng.</h3>
+          <h3 className="logo">hi. my name is <span id="cheng">Cheng</span>.</h3>
         </div>
 
         <div className="links">

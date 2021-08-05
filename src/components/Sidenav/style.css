@@ -23,6 +23,12 @@
   transform: scale(1.1);
 }
 
+/* want to transform #cheng scale(1.1) but need to target */
+
+h3.logo {
+  opacity: 0.8;
+}
+
 .links {
   display: flex;
   flex-grow: 2;

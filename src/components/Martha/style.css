@@ -6,6 +6,7 @@
   scroll-snap-align: start;
   min-height: 80vh;
   position: relative;
+  
 }
 
 #martha-textbox-header {
@@ -17,6 +18,8 @@
   justify-content: center;
   margin: 0;
   min-height: 115px;
+  box-shadow: 0 10px 5px -8px var(--firstShadow);
+  z-index:1;
 }
 
 #martha-textbox-body {
