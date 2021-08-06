@@ -1,0 +1,15 @@
+{
+  "short_name": "Cheng's portfolio",
+  "name": "hi i'm Cheng. hi i'm Cheng. i'm a web developer. come check out my site.",
+  "icons": [
+    {
+      "src": "home.png",
+      "sizes": " 250x250",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
