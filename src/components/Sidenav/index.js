@@ -9,7 +9,7 @@ function Sidenav() {
         {/* avatar */}
         <div className="avatar">
           <a href="#martha" className="logo">
-            <img id="avatar" src="./assets/avatar-hoodie.svg" alt="Cheng avatar"></img>
+            <img id="avatar" src={process.env.PUBLIC_URL + "/assets/avatar-hoodie.svg"} alt="Cheng avatar"></img>
           </a>
           <h3 className="logo">hi. my name is <span id="cheng">Cheng</span>.</h3>
         </div>
@@ -42,13 +42,13 @@ function Sidenav() {
         <div className="social">
           <div className="socialLinks">
             <a href="https://github.com/cheng21tang" target="_blank" rel="noreferrer">
-              <img className="socialIcon" src="./assets/github-original.svg" alt="github icon"></img>
+              <img className="socialIcon" src={process.env.PUBLIC_URL + "/assets/github-original.svg"} alt="github icon"></img>
             </a>
             <a href="https://www.linkedin.com/in/cheng21tang/" target="_blank" rel="noreferrer">
-              <img className="socialIcon" src="./assets/linkedin.svg" alt="linkedIn icon"></img>
+              <img className="socialIcon" src={process.env.PUBLIC_URL + "/assets/linkedin.svg"} alt="linkedIn icon"></img>
             </a>
             <a href="https://cheng21tang.medium.com/" target="_blank" rel="noreferrer">
-              <img className="socialIcon" src="./assets/Medium_Symbol_NoPadding.svg" alt="medium icon"></img>
+              <img className="socialIcon" src={process.env.PUBLIC_URL + "/assets/Medium_Symbol_NoPadding.svg"} alt="medium icon"></img>
             </a>
           </div>
         </div>

@@ -6,7 +6,7 @@ function Contact() {
     <>
       <div id="contact-textbox">
         <div id="contact-textbox-header">
-          <img id="contact" src="./assets/cheng-avatar-circle - 618BBD.svg" alt="Cheng Tang avatar"></img>
+          <img id="contact" src={process.env.PUBLIC_URL + "/assets/cheng-avatar-circle - 618BBD.svg"} alt="Cheng Tang avatar"></img>
           <h4>contact</h4>
         </div>
         <div id="contact-textbox-body">
@@ -17,7 +17,7 @@ function Contact() {
             <p>send me an email at cheng21tang@gmail.com</p>
           </div>
           <a id="emailLink" href="mailto:cheng21tang@gmail.com" rel="noreferrer" target="_blank">
-            <img id="emailIcon" src="./assets/email.svg" alt="email icon"></img>
+            <img id="emailIcon" src={process.env.PUBLIC_URL + "/assets/email.svg"} alt="email icon"></img>
           </a>
 
           {/* Comment this in if I want to use a in browser messaging system */}

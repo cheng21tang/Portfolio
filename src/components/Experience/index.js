@@ -6,7 +6,7 @@ function Experience() {
     <>
       <div id="experience-textbox">
         <div id="experience-textbox-header">
-          <img id="experience" src="./assets/cheng-avatar-circle - 85DF9B.svg" alt="Cheng Tang avatar"></img>
+          <img id="experience" src={process.env.PUBLIC_URL + "/assets/cheng-avatar-circle - 85DF9B.svg"} alt="Cheng Tang avatar"></img>
           <h4>experience</h4>
         </div>
         <div id="experience-textbox-body">
