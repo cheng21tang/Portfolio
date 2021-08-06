@@ -78,7 +78,7 @@ body {
 }
 
 .work-img:hover {
-  opacity: 25%;
+  opacity: 0.25;
 }
 
 .tooltip-box {
