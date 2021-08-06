@@ -1,5 +1,8 @@
 {
   "name": "chengs-portfolio",
+  "homepage": "https://cheng21tang.github.io/Portfolio/",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

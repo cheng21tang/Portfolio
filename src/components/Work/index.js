@@ -52,7 +52,7 @@ function Work() {
               </a>
             </div>
             <div id="card-footer">
-              <p>a cryptocurrency application for buying and trading our platform deployed to AWS</p>
+              <p>a cryptocurrency application for buying and trading on our platform deployed to AWS</p>
             </div>
           </div>
 
