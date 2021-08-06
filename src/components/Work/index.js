@@ -18,7 +18,7 @@ function Work() {
             <div id="card-body">
               <a href="https://cheng21tang.github.io/moogle/" target="_blank" rel="noreferrer">
                 <div className="tooltip-box">
-                  <img className="work-img" src="/assets/moogle-search.gif" alt="moogle"></img>
+                  <img className="work-img" src={process.env.PUBLIC_URL + "/assets/moogle-search.gif"} alt="moogle"></img>
                   <span className="tooltip-text">check out Moogle</span>
                 </div>
               </a>
@@ -28,11 +28,12 @@ function Work() {
             </div>
           </div>
 
+          {/* project cards */}
           <div className="card">
             <div id="card-body">
               <a href="https://farquest.herokuapp.com/" target="_blank" rel="noreferrer">
                 <div className="tooltip-box">
-                  <img className="work-img" src="/assets/farquest-battle-short.gif" alt="far quest"></img>
+                  <img className="work-img" src={process.env.PUBLIC_URL + "/assets/farquest-battle-short.gif"} alt="far quest"></img>
                   <span className="tooltip-text">check out farQuest</span>
                 </div>
               </a>
@@ -46,7 +47,7 @@ function Work() {
             <div id="card-body">
               <a href="http://cryptonite-env.eba-kvnfavpx.us-west-2.elasticbeanstalk.com/" target="_blank" rel="noreferrer">
                 <div className="tooltip-box">
-                  <img className="work-img" src="/assets/cryptonite-demo.gif" alt="cryptonite"></img>
+                  <img className="work-img" src={process.env.PUBLIC_URL + "/assets/cryptonite-demo.gif"} alt="cryptonite"></img>
                   <span className="tooltip-text">check out Cryptonite</span>
                 </div>
               </a>

@@ -31,17 +31,19 @@ function Experience() {
           <div className="text-sent">
             <p>i've lead teams as a manager, coach, and mentor.</p>
           </div>
+
+          {/* resume link */}
           <div className="card">
             <div id="card-body">
               <a href="https://docs.google.com/document/d/13UxoO2tGURsT5STTFxtRGpCIMjzWiN_eWnvw3ciuA1g/edit?usp=sharing" target="_blank" rel="noreferrer">
                 <div className="tooltip-box">
-                  <img className="work-img" src="/assets/resume.gif" alt="resume"></img>
+                  <img className="work-img" src={process.env.PUBLIC_URL + "/assets/resume.gif"} alt="resume"></img>
                   <span className="tooltip-text">check out my resume</span>
                 </div>
               </a>
             </div>
             <div id="card-footer">
-              <p><img id="finger" src="/assets/backhand-index-pointing-up_1f446.png" alt="finger pointer"></img> do you want a copy of my resume?</p>
+              <p><img id="finger" src={process.env.PUBLIC_URL + "/assets/backhand-index-pointing-up_1f446.png"} alt="finger pointer"></img> do you want a copy of my resume?</p>
             </div>
           </div>
         </div>

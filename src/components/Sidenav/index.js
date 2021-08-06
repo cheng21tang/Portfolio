@@ -6,6 +6,7 @@ function Sidenav() {
     <>
       <nav className="navbar">
 
+        {/* avatar */}
         <div className="avatar">
           <a href="#martha" className="logo">
             <img id="avatar" src="./assets/avatar-hoodie.svg" alt="Cheng avatar"></img>
@@ -13,6 +14,7 @@ function Sidenav() {
           <h3 className="logo">hi. my name is <span id="cheng">Cheng</span>.</h3>
         </div>
 
+        {/* page links */}
         <div className="links">
           <div>
             <a className="link" href="#about">
@@ -36,6 +38,7 @@ function Sidenav() {
           </div>
         </div>
 
+        {/* social links */}
         <div className="social">
           <div className="socialLinks">
             <a href="https://github.com/cheng21tang" target="_blank" rel="noreferrer">
@@ -50,19 +53,7 @@ function Sidenav() {
           </div>
         </div>
 
-
       </nav>
-
-
-
-
-
-
-
-
-
-
-
     </>
   )
 }
