@@ -37,3 +37,9 @@
   color: white;
   margin: auto;
 }
+
+#finger {
+  width: 50px;
+  height: auto;
+  transform: rotate(45deg);
+}
