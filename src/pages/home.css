@@ -36,7 +36,7 @@ main {
 .textboxes {
   flex: 2;
   overflow: auto;
-  scroll-snap-type: y mandatory;
+  /* scroll-snap-type: y mandatory; */
   overflow-y: scroll;
   height: 80vh;
 }

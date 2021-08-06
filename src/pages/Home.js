@@ -11,7 +11,7 @@ function Home() {
   return (
     <>
       <main>
-        <div id="topBlock"></div>
+        {/* <div id="topBlock"></div> */}
 
         <section className="glass">
           <Sidenav />
@@ -24,7 +24,7 @@ function Home() {
           </div>
         </section>
 
-        <div id="bottomBlock"></div>
+        {/* <div id="bottomBlock"></div> */}
       </main>
     </>
   )
