@@ -17,7 +17,7 @@ function Sidenav() {
         {/* page links */}
         <div className="links">
           <div>
-            <a className="link" href="#about">
+            <a className="link" href="#about-textbox">
               <h3>about</h3>
             </a>
           </div>

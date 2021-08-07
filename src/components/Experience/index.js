@@ -38,7 +38,7 @@ function Experience() {
               <a href="https://docs.google.com/document/d/13UxoO2tGURsT5STTFxtRGpCIMjzWiN_eWnvw3ciuA1g/edit?usp=sharing" target="_blank" rel="noreferrer">
                 <div className="tooltip-box">
                   <img className="work-img" src={process.env.PUBLIC_URL + "/assets/resume.gif"} alt="resume"></img>
-                  <span className="tooltip-text">check out my resume</span>
+                  <span className="tooltip-text">check out my resume!</span>
                 </div>
               </a>
             </div>

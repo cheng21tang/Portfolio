@@ -57,4 +57,9 @@ input {
 
 #emailIcon {
   width: 128px;
+  transition: all 200ms ease-in-out;
+}
+
+#emailIcon:hover {
+  transform: scale(1.3);
 }
